@@ -11,11 +11,14 @@ body {
 h1 {
   font-family: Montserrat;
   font-size: 3.5rem;
-  line-height: 1.5;
   font-weight: 900;
+  line-height: 1.5;
 }
-#features {
-  text-align: center;
+h2 {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
 }
 h3 {
   font-family: "Montserrat";
@@ -41,8 +44,8 @@ p {
 }
 
 .nav-link {
-  font-size: 1.2rem;
   font-family: "Montserrat";
+  font-size: 1.2rem;
   font-weight: 100;
 }
 
@@ -55,8 +58,15 @@ p {
 /* Title Image */
 
 .title-img {
-  width: 60%;
   transform: rotate(30deg);
+  width: 60%;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  text-align: center;
 }
 .features-icon {
   color: #ef8172;
@@ -65,4 +75,33 @@ p {
 
 .featurres-icon:hover {
   color: #ff4c68;
+}
+
+/* Testimonials section  */
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press Section  */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
 }
