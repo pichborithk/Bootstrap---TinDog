@@ -6,7 +6,7 @@ body {
   color: #fff;
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 h1 {
   font-family: Montserrat;
@@ -58,14 +58,18 @@ p {
 /* Title Image */
 
 .title-img {
-  transform: rotate(30deg);
-  width: 60%;
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 25%;
 }
 
 /* Features Section */
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
   text-align: center;
 }
 .features-icon {
@@ -104,4 +108,15 @@ p {
 .press-logo {
   margin: 20px 20px 50px;
   width: 15%;
+}
+
+/* Pricing Section  */
+
+#pricing {
+  padding: 3% 10%;
+  text-align: center;
+}
+
+.pricing-card {
+  padding: 2% 2%;
 }
