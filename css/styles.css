@@ -9,7 +9,7 @@ body {
   padding: 3% 15% 7%;
 }
 h1 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
@@ -77,7 +77,7 @@ p {
   margin: 5% 0;
 }
 
-.featurres-icon:hover {
+.features-icon:hover {
   color: #ff4c68;
 }
 
@@ -113,10 +113,41 @@ p {
 /* Pricing Section  */
 
 #pricing {
-  padding: 3% 10%;
+  padding: 5% 10%;
   text-align: center;
 }
 
 .pricing-card {
   padding: 2% 2%;
+}
+
+/* cta Section */
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 4% 15%;
+  text-align: center;
+}
+
+/* footer */
+
+#footer {
+  background-color: #fff;
+  padding: 4% 15%;
+  text-align: center;
+}
+.contact-icon {
+  padding: 2% 1%;
+}
+
+@media (max-width: 990px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0deg);
+    width: 50%;
+  }
 }
